@@ -23,7 +23,12 @@ hr {
 hr.light {
     border-color: #fff;
 }
-
+a.txt  {
+	color: #222222;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
 a {
     color: #f05f40;
     -webkit-transition: all .35s;
