@@ -37,6 +37,7 @@ html, body {
 
 .card__text_contianer{
     padding: 0 16px;
+    margin: 20px 0;
 }
 
 .card__text {
