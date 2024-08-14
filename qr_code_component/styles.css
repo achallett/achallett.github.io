@@ -24,7 +24,8 @@ html, body {
     width: 288px;
     height: 468px;
     padding: 16px;
-    border-radius: 20px
+    border-radius: 20px;
+    box-shadow: 0 10px 50px -20px #68778D;
 }
 
 .card__heading {
