@@ -1,0 +1,75 @@
+:root {
+    --font-family: "Figtree", sans-serif;
+    --color-yellow: #F4D04E;
+    --color-gray-950: #111111;
+    --color-gray-500: #6b6b6b;
+}
+
+
+html, body {
+    background-color: var(--color-yellow);
+    font-family: var(--font-family);
+    height: 100%;
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 336px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    box-shadow: 8px 8px 0px #000000;
+}
+
+.card__image {
+    width: 336px;
+    border-radius: 10px;
+}
+.card__tag {
+    background-color: var(--color-yellow);
+    padding: 6px 12px;
+    font-weight: 700;
+    color: var(--color-gray-950);
+    margin-top: 24px;
+    width: fit-content;
+    border-radius: 4px;
+    font-size: 0.9375rem;
+}
+
+.card__heading {
+    font-size: 1.5rem;
+}
+
+.card__published {
+    font-size: 0.9375rem;
+}
+.card__text {
+    color: var(--color-gray-500);
+}
+
+.card__profile {
+    display: flex;
+}
+
+.card__profile_picture {
+    display: block;
+    max-width:32px;
+    max-height:32px;
+    width: auto;
+    height: auto;
+}
+
+.card__profile_name {
+    align-self: center;
+    padding-left: 12px;
+    font-weight: 700;
+}
+
+
