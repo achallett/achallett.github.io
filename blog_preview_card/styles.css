@@ -29,7 +29,7 @@ html, body {
 }
 
 .card__image {
-    width: 336px;
+    width: 100%;
     border-radius: 10px;
 }
 .card__tag {
