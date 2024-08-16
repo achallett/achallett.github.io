@@ -36,27 +36,29 @@ html, body {
 
 .card__profile_picture {
     border-radius: 50%;
-    width: 90px;
+    width: 88px;
     padding: 12px;
 }
 .card__profile_name {
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .card__profile_location {
     color: var(--color-green);
     font-weight: 600;
-    padding: 8px;
+    padding: 12px;
     font-size: 0.8rem;
 }
 
 .card__profile_bio {
     padding-top: 20px;
+    font-size: 0.8rem;
 }
 
 .card__profile_links__item {
     background-color: var(--color-gray-700);
-    padding: 15px;
+    padding: 14px;
     margin: 16px auto;
     width: 300px;
     color: var(--color-white);
