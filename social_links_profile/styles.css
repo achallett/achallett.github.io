@@ -37,17 +37,17 @@ html, body {
 .card__profile_picture {
     border-radius: 50%;
     width: 88px;
-    padding: 12px;
+    padding: 8px;
 }
 .card__profile_name {
     font-size: 1.5rem;
     font-weight: 600;
+    margin: 20px;
 }
 
 .card__profile_location {
     color: var(--color-green);
     font-weight: 600;
-    padding: 12px;
     font-size: 0.8rem;
 }
 
@@ -64,7 +64,6 @@ html, body {
     color: var(--color-white);
     font-weight: 600;
     border-radius: 0.8rem;
-    font-size: 0.9375rem;
 }
 
 .card__profile_links__item:hover {
