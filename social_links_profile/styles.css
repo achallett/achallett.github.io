@@ -31,7 +31,7 @@ html, body {
     padding: 20px;
 }
 .card__profile_details {
-    padding: 16px;
+    margin: 16px;
 }
 
 .card__profile_picture {
@@ -42,7 +42,7 @@ html, body {
 .card__profile_name {
     font-size: 1.5rem;
     font-weight: 600;
-    margin: 20px;
+    margin: 12px;
 }
 
 .card__profile_location {
@@ -52,8 +52,8 @@ html, body {
 }
 
 .card__profile_bio {
-    padding-top: 20px;
     font-size: 0.8rem;
+    margin: 28px;
 }
 
 .card__profile_links__item {
