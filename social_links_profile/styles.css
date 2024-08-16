@@ -17,6 +17,7 @@ html, body {
     background-color: var(--color-gray-900);
 }
 
+
 .main__wrapper {
     display: flex;
     justify-content: center; /* Centers horizontally */
