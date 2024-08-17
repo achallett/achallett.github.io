@@ -1,0 +1,76 @@
+:root {
+    --heading-ff: "Young Serif", serif;
+    --text-ff: "Outfit", sans-serif;
+    --color-white: hsl(0, 0%, 100%);
+    --color-stone-100: hsl(30, 54%, 90%);
+    --color-stone-150: hsl(30, 18%, 87%);
+    --color-stone-600: hsl(30, 10%, 34%);
+    --color-stone-900: hsl(24, 5%, 18%);
+    --color-brown-800: hsl(14, 45%, 36%);
+    --color-rose-800: hsl(332, 51%, 32%);
+    --color-rose-50: hsl(330, 100%, 98%);
+}
+
+
+
+html, body {
+    margin: 0;
+    font-family: var(--text-ff);
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block; 
+}
+
+h1, h2 {
+    font-family: var(--heading-ff);
+    margin: 0;
+}
+
+h2 {
+    color: var(--color-brown-800);
+}
+
+h3 {
+    margin: 0;
+    color: var(--color-rose-800);
+}
+
+
+
+@media (min-width: 600px) {
+    .card {
+        margin: 20px;
+        padding: 40px;
+        background-color: aquamarine;
+    }
+}
+
+.card__content {
+    margin: 0;
+    padding: 30px;
+}
+
+
+.card__content li::marker {
+    color: var(--color-brown-800)
+}
+
+.card__content ul {
+    list-style-position: outside;
+    /* padding-left: 20px; Adjust this value for more or less space */
+}
+
+.card__content li {
+    margin-left: 5px;
+     /* Additional spacing between the bullet and text */
+}
+
+.card__preparation_time {
+    padding: 20px;
+    background-color: var(--color-rose-50);
+    border-radius: 0.5rem;
+}
+
