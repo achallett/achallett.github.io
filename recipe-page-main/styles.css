@@ -17,6 +17,7 @@ html, body {
     margin: 0;
     font-family: var(--text-ff);
     padding: 0;
+    color: var(--color-stone-600);
 }
 
 img {
@@ -27,6 +28,10 @@ img {
 h1, h2 {
     font-family: var(--heading-ff);
     margin: 0;
+}
+
+h1 {
+    color: var(--color-stone-900);
 }
 
 h2 {
@@ -53,24 +58,53 @@ h3 {
     padding: 30px;
 }
 
+.card__content p {
+    color: var(--color-stone-600);
+}
 
 .card__content li::marker {
     color: var(--color-brown-800)
 }
 
+
 .card__content ul {
-    list-style-position: outside;
-    /* padding-left: 20px; Adjust this value for more or less space */
+    /* list-style-position: outside; */
+    padding-left: 20px; 
 }
 
 .card__content li {
-    margin-left: 5px;
-     /* Additional spacing between the bullet and text */
+    margin: 10px; 
+    padding-left: 10px;
 }
 
+.card__content li:not(:last-child) {
+    margin-bottom: 15px; 
+}
+
+
 .card__preparation_time {
-    padding: 20px;
+    padding: 26px;
     background-color: var(--color-rose-50);
     border-radius: 0.5rem;
 }
 
+.card__content--table p {
+    margin: 1rem 0.6rem 1rem 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid var(--color-stone-150);
+}
+
+td {
+    padding: 10px 20px;
+} 
+
+.table__td_quantity {
+    font-weight: 600;
+    color: var(--color-brown-800);
+} 
