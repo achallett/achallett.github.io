@@ -79,6 +79,9 @@ html, body, main {
 .card_1 {
     background-color:  var(--color-violet);
     color: var(--color-white);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
 }
 
 .card_2 {
